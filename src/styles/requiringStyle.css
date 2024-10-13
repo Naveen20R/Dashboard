@@ -1,0 +1,144 @@
+.requiring {
+    background-color: var(--blue-color);
+}
+
+.requiring-list {
+    background-color: var(--light-blue);
+}
+
+.search-notes {
+    background-color: white;
+}
+
+.search-notes {
+    background-color: var(--white);
+}
+
+.note-search-input {
+    border: none;
+}
+
+.note-search-input:focus {
+    border: none;
+    outline: none;
+}
+
+.note-bottom-line {
+    border-bottom: 2px solid var(--blue-color);
+}
+
+.note-bottom-line>.fa-search {
+    color: var(--blue-color);
+}
+
+.note-search-input::placeholder {
+    color: var(--gray);
+}
+
+.add-notes {
+    color: var(--blue-color);
+}
+
+.note-title {
+    color: var(--light-black);
+}
+
+.note-desc {
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.note-delete {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.note-list {
+    border-bottom: 1px solid var(--gray);
+}
+
+.search-notes div:not(:first-child):hover {
+    background-color: var(--mild-blue);
+}
+
+.search-notes div:not(:first-child):hover .note-delete {
+    color: var(--red);
+}
+
+.search-notes {
+    cursor: pointer;
+}
+
+.weather {
+    background-color: var(--blue-color);
+}
+
+.caller {
+    background-color: var(--light-red);
+}
+
+.reports {
+    color: var(--dark-gray);
+}
+
+.report-title {
+    color: var(--dark-gray);
+    font-size: 16px;
+}
+
+.report-desc {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.reports:hover {
+    cursor: pointer;
+    background-color: var(--mild-blue);
+
+}
+
+.report-download{
+    color:var(--gray);
+}
+.reports:hover .report-download {
+    color: var(--blue-color);
+}
+
+.report-img {
+    width: 25px;
+    height: 30px;
+}
+
+.orders:hover {
+    cursor: pointer;
+    background-color:var(--blue-color);
+    color:white  !important;
+}
+.order-code{
+    font-weight:bold;
+    color:var(--blue-color);
+    font-size:14px;
+}
+.order-title{
+    color:var(--dark-gray);
+    font-size:16px;
+
+}
+.order-desc{
+    color:var(--gray);
+    font-size:14px;
+}
+.orders:hover .order-code,.orders:hover .order-desc
+,.orders:hover .order-title{
+    color:var(--white);
+}
+
+.activity-date, .activity-title{
+   font-size:16px;
+   font-weight: bolder;
+   color:var(--dark-gray);
+}
+.activity-time,.activity-desc{
+    color:var(--gray);
+    font-size:14px;
+}

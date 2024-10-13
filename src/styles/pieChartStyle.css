@@ -1,0 +1,5 @@
+.pie-chart-drop{
+    background-color:var(--light-gray02);
+    max-width:120px;
+    z-index: 1px;
+}
